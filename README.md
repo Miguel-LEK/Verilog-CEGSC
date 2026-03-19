@@ -1,6 +1,6 @@
 # Verilog-CEGSC
 
-First hands-on experience with Verilog HDL, written during a workshop session at the University of Ottawa Computer Engineering Student Game Club (CEGSC).
+First hands-on experience with Verilog HDL, written during a workshop session at the University of Ottawa Computer Engineering Student Chapter (CEGSC).
 Targets a 50 MHz FPGA development board.
 
 ---
