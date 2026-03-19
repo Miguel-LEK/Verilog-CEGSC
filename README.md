@@ -1,14 +1,13 @@
 # Verilog-CEGSC
 
 First hands-on experience with Verilog HDL, written during a workshop session at the University of Ottawa Computer Engineering Student Chapter (CEGSC).
-Targets a 50 MHz FPGA development board.
 
 ---
 
 ## Modules
 
 ### `TEST1_Blinker.v` — Parameterized LED Blinker
-Blinks 8 LEDs at a configurable rate using clock division.
+Blinks 6 LEDs at a configurable rate using clock division.
 
 - Fully parameterized: set `CLK_FREQ` and `BLINK_HZ` at instantiation
 - Synchronous active-high reset
