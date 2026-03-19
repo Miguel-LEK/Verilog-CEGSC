@@ -7,7 +7,7 @@ Targets a 50 MHz FPGA development board.
 
 ## Modules
 
-### `Verilog1.v` — Parameterized LED Blinker
+### `TEST1_Blinker.v` — Parameterized LED Blinker
 Blinks 8 LEDs at a configurable rate using clock division.
 
 - Fully parameterized: set `CLK_FREQ` and `BLINK_HZ` at instantiation
@@ -18,7 +18,7 @@ Blinks 8 LEDs at a configurable rate using clock division.
 
 ---
 
-### `Verilog2.v` — RGB LED Color Cycler
+### `TEST2_ColorCycler.v` — RGB LED Color Cycler
 Cycles an active-low RGB LED through Red → Orange → Purple
 using a 2-bit FSM and a 26-bit counter (~0.5s per state at 50 MHz).
 
